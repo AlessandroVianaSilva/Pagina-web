@@ -1,0 +1,49 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+header, main, aside, footer {
+    border: 1px solid black;
+    margin-bottom: 6px;
+}
+
+header {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 120px;
+        padding-left: 1rem;
+        padding-right: 2rem;
+}
+img {
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 2em;
+}
+
+main, aside{
+    min-height: 250px;
+}
+
+main {
+    width: 62%;
+    float: left;
+    text-align: justify;
+    padding: 2em 3em 2em 2em;
+}
+
+aside {
+    width: 23%;
+    float: right;
+    padding: 2em 3em 2em 2em;
+
+}
+
+footer {
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
